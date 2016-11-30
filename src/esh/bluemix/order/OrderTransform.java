@@ -29,7 +29,9 @@ public class OrderTransform {
 	@Consumes("application/xml")
 	public String proccess(String requestFile) throws Exception, IOException {
 		
-		System.out.println("OrderTransformService Started!");
+		String version = "ESH BlueMix 1.0";
+		
+		System.out.println(version + ":" + "OrderTransformService Started!");
 		
 		//System.out.println("Data: requestFile[" + requestFile + "]");
 		
